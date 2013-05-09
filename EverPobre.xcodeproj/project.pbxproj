@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8EAD5FA173C2D4000BAE606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EAD5F9173C2D4000BAE606 /* UIKit.framework */; };
+		B8EAD5FC173C2D4000BAE606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EAD5FB173C2D4000BAE606 /* Foundation.framework */; };
+		B8EAD5FE173C2D4000BAE606 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EAD5FD173C2D4000BAE606 /* CoreGraphics.framework */; };
+		B8EAD604173C2D4000BAE606 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD602173C2D4000BAE606 /* InfoPlist.strings */; };
+		B8EAD606173C2D4000BAE606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD605173C2D4000BAE606 /* main.m */; };
+		B8EAD60A173C2D4000BAE606 /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD609173C2D4000BAE606 /* WTAppDelegate.m */; };
+		B8EAD60C173C2D4000BAE606 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD60B173C2D4000BAE606 /* Default.png */; };
+		B8EAD60E173C2D4000BAE606 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD60D173C2D4000BAE606 /* Default@2x.png */; };
+		B8EAD610173C2D4000BAE606 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD60F173C2D4000BAE606 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8EAD5F6173C2D4000BAE606 /* EverPobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverPobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EAD5F9173C2D4000BAE606 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8EAD5FB173C2D4000BAE606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8EAD5FD173C2D4000BAE606 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8EAD601173C2D4000BAE606 /* EverPobre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EverPobre-Info.plist"; sourceTree = "<group>"; };
+		B8EAD603173C2D4000BAE606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8EAD605173C2D4000BAE606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8EAD607173C2D4000BAE606 /* EverPobre-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EverPobre-Prefix.pch"; sourceTree = "<group>"; };
+		B8EAD608173C2D4000BAE606 /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		B8EAD609173C2D4000BAE606 /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		B8EAD60B173C2D4000BAE606 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B8EAD60D173C2D4000BAE606 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B8EAD60F173C2D4000BAE606 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8EAD5F3173C2D4000BAE606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EAD5FA173C2D4000BAE606 /* UIKit.framework in Frameworks */,
+				B8EAD5FC173C2D4000BAE606 /* Foundation.framework in Frameworks */,
+				B8EAD5FE173C2D4000BAE606 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8EAD5ED173C2D4000BAE606 = {
+			isa = PBXGroup;
+			children = (
+				B8EAD5FF173C2D4000BAE606 /* EverPobre */,
+				B8EAD5F8173C2D4000BAE606 /* Frameworks */,
+				B8EAD5F7173C2D4000BAE606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8EAD5F7173C2D4000BAE606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8EAD5F6173C2D4000BAE606 /* EverPobre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8EAD5F8173C2D4000BAE606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8EAD5F9173C2D4000BAE606 /* UIKit.framework */,
+				B8EAD5FB173C2D4000BAE606 /* Foundation.framework */,
+				B8EAD5FD173C2D4000BAE606 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8EAD5FF173C2D4000BAE606 /* EverPobre */ = {
+			isa = PBXGroup;
+			children = (
+				B8EAD608173C2D4000BAE606 /* WTAppDelegate.h */,
+				B8EAD609173C2D4000BAE606 /* WTAppDelegate.m */,
+				B8EAD600173C2D4000BAE606 /* Supporting Files */,
+			);
+			path = EverPobre;
+			sourceTree = "<group>";
+		};
+		B8EAD600173C2D4000BAE606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8EAD601173C2D4000BAE606 /* EverPobre-Info.plist */,
+				B8EAD602173C2D4000BAE606 /* InfoPlist.strings */,
+				B8EAD605173C2D4000BAE606 /* main.m */,
+				B8EAD607173C2D4000BAE606 /* EverPobre-Prefix.pch */,
+				B8EAD60B173C2D4000BAE606 /* Default.png */,
+				B8EAD60D173C2D4000BAE606 /* Default@2x.png */,
+				B8EAD60F173C2D4000BAE606 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8EAD5F5173C2D4000BAE606 /* EverPobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8EAD613173C2D4000BAE606 /* Build configuration list for PBXNativeTarget "EverPobre" */;
+			buildPhases = (
+				B8EAD5F2173C2D4000BAE606 /* Sources */,
+				B8EAD5F3173C2D4000BAE606 /* Frameworks */,
+				B8EAD5F4173C2D4000BAE606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverPobre;
+			productName = EverPobre;
+			productReference = B8EAD5F6173C2D4000BAE606 /* EverPobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8EAD5EE173C2D4000BAE606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Widetech;
+			};
+			buildConfigurationList = B8EAD5F1173C2D4000BAE606 /* Build configuration list for PBXProject "EverPobre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8EAD5ED173C2D4000BAE606;
+			productRefGroup = B8EAD5F7173C2D4000BAE606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8EAD5F5173C2D4000BAE606 /* EverPobre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8EAD5F4173C2D4000BAE606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EAD604173C2D4000BAE606 /* InfoPlist.strings in Resources */,
+				B8EAD60C173C2D4000BAE606 /* Default.png in Resources */,
+				B8EAD60E173C2D4000BAE606 /* Default@2x.png in Resources */,
+				B8EAD610173C2D4000BAE606 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8EAD5F2173C2D4000BAE606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EAD606173C2D4000BAE606 /* main.m in Sources */,
+				B8EAD60A173C2D4000BAE606 /* WTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8EAD602173C2D4000BAE606 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8EAD603173C2D4000BAE606 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8EAD611173C2D4000BAE606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8EAD612173C2D4000BAE606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8EAD614173C2D4000BAE606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverPobre/EverPobre-Prefix.pch";
+				INFOPLIST_FILE = "EverPobre/EverPobre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8EAD615173C2D4000BAE606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverPobre/EverPobre-Prefix.pch";
+				INFOPLIST_FILE = "EverPobre/EverPobre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8EAD5F1173C2D4000BAE606 /* Build configuration list for PBXProject "EverPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EAD611173C2D4000BAE606 /* Debug */,
+				B8EAD612173C2D4000BAE606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8EAD613173C2D4000BAE606 /* Build configuration list for PBXNativeTarget "EverPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EAD614173C2D4000BAE606 /* Debug */,
+				B8EAD615173C2D4000BAE606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8EAD5EE173C2D4000BAE606 /* Project object */;
+}
