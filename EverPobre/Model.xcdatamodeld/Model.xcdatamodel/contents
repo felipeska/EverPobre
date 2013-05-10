@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Note" representedClassName="WTNote" syncable="YES">
+        <attribute name="creation_date" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="modification_date" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="New Note" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="notebook" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Notebook" inverseName="note" inverseEntity="Notebook" syncable="YES"/>
+    </entity>
+    <entity name="Notebook" representedClassName="WTNotebook" syncable="YES">
+        <attribute name="creation_date" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="modification_date" attributeType="Date" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="New notebook" indexed="YES" syncable="YES"/>
+        <relationship name="note" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Note" inverseName="notebook" inverseEntity="Note" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Notebook" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Note" positionX="160" positionY="192" width="128" height="135"/>
+    </elements>
+</model>

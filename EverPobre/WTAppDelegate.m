@@ -7,11 +7,57 @@
 //
 
 #import "WTAppDelegate.h"
-
+#import "AGTCoreDataStack.h"
+#import "WTNotebook.h"
+#import "WTNote.h"
 @implementation WTAppDelegate
+
+-(void)trastearConDatos {
+    
+    //creamos unos objetos
+    WTNotebook *nb = [WTNotebook notebookInContext:self.model.context];
+    WTNotebook *nb2 = [WTNotebook notebookInContext:self.model.context];
+    
+    NSLog(@"Notebook : %@", nb);
+    NSLog(@"Notebook : %@", nb2);
+    
+    nb.name = @"Nueva libreta";
+    
+    //creamos las notas
+    
+    WTNote *note = [WTNote noteInNotebook:nb withContext: self.model.context];
+    NSLog(@"Nota: %@ ", note);
+    
+    //buscamos
+    
+    NSFetchRequest *request= [[NSFetchRequest alloc]initWithEntityName:[WTNotebook entityName]];
+    request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES],[NSSortDescriptor sortDescriptorWithKey:@"creation_date" ascending:NO]];
+    NSError *err = nil;
+    NSArray *results = [self.model.context executeFetchRequest:request error:&err];
+    if(results == nil){
+        NSLog(@"Error al buscar: %@", err);
+    }
+    
+    NSLog(@"Librerias: %@", results);
+    NSLog(@"Total: %d", [results count]);
+    
+    
+
+    
+    
+    
+    //Guardamos objetos
+    [self.model saveWithErrorBlock:^(NSError *error) {
+        NSLog(@"La cagamos %@",error);
+    }];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //inicaliza el modelo (CoreDataStack)
+    self.model = [AGTCoreDataStack coreDataStackWithModelName:@"Model"];
+    
+    [self trastearConDatos];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

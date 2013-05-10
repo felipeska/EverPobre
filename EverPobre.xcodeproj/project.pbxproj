@@ -16,6 +16,14 @@
 		B8EAD60C173C2D4000BAE606 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD60B173C2D4000BAE606 /* Default.png */; };
 		B8EAD60E173C2D4000BAE606 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD60D173C2D4000BAE606 /* Default@2x.png */; };
 		B8EAD610173C2D4000BAE606 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD60F173C2D4000BAE606 /* Default-568h@2x.png */; };
+		B8EAD618173C2D8800BAE606 /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD617173C2D8800BAE606 /* AGTCoreDataStack.m */; };
+		B8EAD61C173C2DD400BAE606 /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD61B173C2DD400BAE606 /* AGTCoreDataTableViewController.m */; };
+		B8EAD61F173C2DFF00BAE606 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EAD61E173C2DFF00BAE606 /* CoreData.framework */; };
+		B8EAD622173C30DD00BAE606 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD620173C30DD00BAE606 /* Model.xcdatamodeld */; };
+		B8EAD625173C3CD200BAE606 /* _WTNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD624173C3CD200BAE606 /* _WTNotebook.m */; };
+		B8EAD628173C3DA500BAE606 /* WTNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD627173C3DA500BAE606 /* WTNotebook.m */; };
+		B8EAD62D173C507200BAE606 /* _WTNote.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD62A173C507200BAE606 /* _WTNote.m */; };
+		B8EAD62E173C507200BAE606 /* WTNote.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD62C173C507200BAE606 /* WTNote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,20 @@
 		B8EAD60B173C2D4000BAE606 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B8EAD60D173C2D4000BAE606 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B8EAD60F173C2D4000BAE606 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B8EAD616173C2D8800BAE606 /* AGTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataStack.h; sourceTree = "<group>"; };
+		B8EAD617173C2D8800BAE606 /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
+		B8EAD61A173C2DD400BAE606 /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		B8EAD61B173C2DD400BAE606 /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		B8EAD61E173C2DFF00BAE606 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B8EAD621173C30DD00BAE606 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B8EAD623173C3CD200BAE606 /* _WTNotebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _WTNotebook.h; sourceTree = "<group>"; };
+		B8EAD624173C3CD200BAE606 /* _WTNotebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _WTNotebook.m; sourceTree = "<group>"; };
+		B8EAD626173C3DA500BAE606 /* WTNotebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNotebook.h; sourceTree = "<group>"; };
+		B8EAD627173C3DA500BAE606 /* WTNotebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNotebook.m; sourceTree = "<group>"; };
+		B8EAD629173C507200BAE606 /* _WTNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _WTNote.h; sourceTree = "<group>"; };
+		B8EAD62A173C507200BAE606 /* _WTNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _WTNote.m; sourceTree = "<group>"; };
+		B8EAD62B173C507200BAE606 /* WTNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNote.h; sourceTree = "<group>"; };
+		B8EAD62C173C507200BAE606 /* WTNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EAD61F173C2DFF00BAE606 /* CoreData.framework in Frameworks */,
 				B8EAD5FA173C2D4000BAE606 /* UIKit.framework in Frameworks */,
 				B8EAD5FC173C2D4000BAE606 /* Foundation.framework in Frameworks */,
 				B8EAD5FE173C2D4000BAE606 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +91,7 @@
 		B8EAD5F8173C2D4000BAE606 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8EAD61E173C2DFF00BAE606 /* CoreData.framework */,
 				B8EAD5F9173C2D4000BAE606 /* UIKit.framework */,
 				B8EAD5FB173C2D4000BAE606 /* Foundation.framework */,
 				B8EAD5FD173C2D4000BAE606 /* CoreGraphics.framework */,
@@ -78,8 +102,10 @@
 		B8EAD5FF173C2D4000BAE606 /* EverPobre */ = {
 			isa = PBXGroup;
 			children = (
-				B8EAD608173C2D4000BAE606 /* WTAppDelegate.h */,
 				B8EAD609173C2D4000BAE606 /* WTAppDelegate.m */,
+				B8EAD608173C2D4000BAE606 /* WTAppDelegate.h */,
+				B8EAD61D173C2DDB00BAE606 /* controlador */,
+				B8EAD619173C2D9F00BAE606 /* model */,
 				B8EAD600173C2D4000BAE606 /* Supporting Files */,
 			);
 			path = EverPobre;
@@ -97,6 +123,33 @@
 				B8EAD60F173C2D4000BAE606 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8EAD619173C2D9F00BAE606 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B8EAD629173C507200BAE606 /* _WTNote.h */,
+				B8EAD62A173C507200BAE606 /* _WTNote.m */,
+				B8EAD62B173C507200BAE606 /* WTNote.h */,
+				B8EAD62C173C507200BAE606 /* WTNote.m */,
+				B8EAD626173C3DA500BAE606 /* WTNotebook.h */,
+				B8EAD627173C3DA500BAE606 /* WTNotebook.m */,
+				B8EAD623173C3CD200BAE606 /* _WTNotebook.h */,
+				B8EAD624173C3CD200BAE606 /* _WTNotebook.m */,
+				B8EAD616173C2D8800BAE606 /* AGTCoreDataStack.h */,
+				B8EAD620173C30DD00BAE606 /* Model.xcdatamodeld */,
+				B8EAD617173C2D8800BAE606 /* AGTCoreDataStack.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		B8EAD61D173C2DDB00BAE606 /* controlador */ = {
+			isa = PBXGroup;
+			children = (
+				B8EAD61A173C2DD400BAE606 /* AGTCoreDataTableViewController.h */,
+				B8EAD61B173C2DD400BAE606 /* AGTCoreDataTableViewController.m */,
+			);
+			name = controlador;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +220,13 @@
 			files = (
 				B8EAD606173C2D4000BAE606 /* main.m in Sources */,
 				B8EAD60A173C2D4000BAE606 /* WTAppDelegate.m in Sources */,
+				B8EAD618173C2D8800BAE606 /* AGTCoreDataStack.m in Sources */,
+				B8EAD61C173C2DD400BAE606 /* AGTCoreDataTableViewController.m in Sources */,
+				B8EAD622173C30DD00BAE606 /* Model.xcdatamodeld in Sources */,
+				B8EAD625173C3CD200BAE606 /* _WTNotebook.m in Sources */,
+				B8EAD628173C3DA500BAE606 /* WTNotebook.m in Sources */,
+				B8EAD62D173C507200BAE606 /* _WTNote.m in Sources */,
+				B8EAD62E173C507200BAE606 /* WTNote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +307,7 @@
 				GCC_PREFIX_HEADER = "EverPobre/EverPobre-Prefix.pch";
 				INFOPLIST_FILE = "EverPobre/EverPobre-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -258,6 +319,7 @@
 				GCC_PREFIX_HEADER = "EverPobre/EverPobre-Prefix.pch";
 				INFOPLIST_FILE = "EverPobre/EverPobre-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,6 +345,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B8EAD620173C30DD00BAE606 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B8EAD621173C30DD00BAE606 /* Model.xcdatamodel */,
+			);
+			currentVersion = B8EAD621173C30DD00BAE606 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B8EAD5EE173C2D4000BAE606 /* Project object */;
 }
